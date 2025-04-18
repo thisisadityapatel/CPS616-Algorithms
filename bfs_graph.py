@@ -19,6 +19,7 @@ graph = {
 #   \     / \
 #    6 - 7   8
 
+
 def bfs(graph, start) -> list:
     queue = collections.deque()
     queue.append(start)
